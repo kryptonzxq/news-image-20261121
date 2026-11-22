@@ -265,21 +265,29 @@ def render():
         y += 20
 
     # --- Story grid: 4 rows x 3 columns (stories 2-12) ---
+    # Last row holds only stories 11 and 12, so those two cards are each
+    # 1.5 columns wide and together span the full grid width — no empty cell.
     gx, gy = MX, 306
     cw, chh, gap = 320, 120, 12
+    wide_w = (3 * cw + 2 * gap - gap) // 2  # 486: two wide cards + one gap
     for i, s in enumerate(STORIES):
         col, row = i % 3, i // 3
-        x0 = gx + col * (cw + gap)
+        if row == 3:
+            cw_i = wide_w
+            x0 = gx + col * (wide_w + gap)
+        else:
+            cw_i = cw
+            x0 = gx + col * (cw + gap)
         y0 = gy + row * (chh + gap)
-        d.rounded_rectangle([x0, y0, x0 + cw, y0 + chh], radius=6,
+        d.rounded_rectangle([x0, y0, x0 + cw_i, y0 + chh], radius=6,
                             fill=CARD_BG, outline=CARD_LINE, width=1)
-        d.rectangle([x0, y0, x0 + cw, y0 + 4], fill=s["color"])
+        d.rectangle([x0, y0, x0 + cw_i, y0 + 4], fill=s["color"])
         tx2 = x0 + 12
         ty = y0 + 14
         d.text((tx2, ty), s["region"], font=F_REGION, fill=s["color"])
-        draw_badge(d, x0 + cw - 16, y0 + 20, s["num"])
+        draw_badge(d, x0 + cw_i - 16, y0 + 20, s["num"])
         ty += 20
-        hlines = wrap(d, s["headline"], F_HEAD, cw - 24)
+        hlines = wrap(d, s["headline"], F_HEAD, cw_i - 24)
         if len(hlines) > 2:
             print("WARNING: story %d headline wraps to %d lines"
                   % (s["num"], len(hlines)))
@@ -287,7 +295,7 @@ def render():
             d.text((tx2, ty), ln, font=F_HEAD, fill=WHITE)
             ty += 21
         ty += 2
-        clines = wrap(d, s["caption"], F_CAP, cw - 24)
+        clines = wrap(d, s["caption"], F_CAP, cw_i - 24)
         if len(clines) > 2:
             print("WARNING: story %d caption wraps to %d lines"
                   % (s["num"], len(clines)))
