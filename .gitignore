@@ -1,0 +1,4 @@
+output/
+__pycache__/
+muse-usage.jsonl
+transcripts.tar.gz
