@@ -125,3 +125,86 @@
   /output/entry.png. Image ≤1 MiB, ≤1024×1024. No network. Two runs must
   write identical bytes. Max 10 submissions/day, 20 total; last is final.
 - AI judge (no news feed) compares images pairwise; top 50 share $100.
+
+---
+
+## ADDITIONAL VERIFIED STORIES — for the DENSE REDESIGN (researched 2026-11-22 ~15:35 WIB)
+
+### 8 — PERU QUAKE 6.7 (Junín)
+- M6.7, epicentre ~30–34 km NW/N of Junín, central Peru, depth 108 km (USGS) /
+  129 km (IGP). Struck Friday 20 Nov at 19:09 Lima local = Saturday 21 Nov
+  00:09 GMT; felt in Lima, residents rushed into the streets; 5.0 aftershock
+  early Saturday. No tsunami threat.
+- Toll (UPDATED, use these — early reports said "no deaths"): 1 dead (a patient
+  in a Huánuco hospital), 16 injured (COES/Minsa); Indeci preliminary: 128
+  dwellings affected, 4 destroyed, 8 injured. Figures provisional.
+- DATE HONESTY: the quake was Friday night local time; it is a Saturday story
+  by GMT (00:09) and by Saturday reporting. Label "Friday night (local) ·
+  00:09 GMT Saturday" — never just "Saturday quake" without the note.
+- Sources: AFP (Lima, Nov 21), AP, USGS, IGP, COES/Minsa via democrata.es.
+
+### 9 — INDONESIA–EU SIGN TRADE PACT IN BRUSSELS (CEPA)
+- **CORRECTION to the earlier caveat:** the formal SIGNING was Saturday
+  21 Nov 2026 in Brussels (Reuters, AFP, EU audiovisual service, ANTARA).
+  What happened Wed 18 Nov was the EU governments' AUTHORISATION of the
+  signature — the 19 Nov research correctly excluded the authorisation news,
+  but the signing itself is a genuine 21 Nov story. Use it.
+- CEPA + Investment Protection Agreement signed by Šefčovič (EU) with
+  Airlangga Hartarto / Budi Santoso / Rosan Roeslani (Indonesia), witnessed by
+  von der Leyen. 10 years of negotiations (concluded Sept 2025).
+- 90.4% of Indonesian tariff lines zero-duty from day one; 98.5% of EU goods
+  duty-free; EU exporters save ~€650M/yr; in force early 2027 after
+  ratification. Bilateral trade ~US$30B/yr.
+- Sources: Reuters 2026-11-21, AFP, EU Audiovisual Service, ANTARA.
+
+### 10 — BASRA POWER-STATION FIRE KILLS 4
+- Sat 21 Nov ~06:00 local (03:00 GMT): fire at the Hartha power station north
+  of Basra, Iraq — gas pipeline supplying the station involved; fire spread to
+  nearby houses; 800 MW plant (running at 400 MW) shut down; brought under
+  control by civil defence.
+- At least 4 killed, 30 injured (Reuters early figure; Al Jazeera/Rudaw put
+  the injured at 35; toll expected to rise). Image text: "4 killed, 30 injured"
+  with no higher claim, or "4 killed, dozens injured".
+- Sources: Reuters (BASRA, Nov 21), Al Jazeera, Rudaw, INA.
+
+### 11 — TAIWAN BANS SHORT-SELLING AFTER 17.5% WEEKLY PLUNGE
+- Announced Sat 21 Nov by Taiwan's Financial Supervisory Commission (Focus
+  Taiwan/CNA, Reuters): from Mon 23 Nov, short-selling below the previous
+  session's close is banned for ALL listed/OTC stocks + Taiwan Depositary
+  Receipts (first blanket curb since 2015); minimum short-sale margin raised
+  130% → 150%; new put-warrant issuance suspended.
+- TAIEX fell 17.5% in the week (worst week since 1990 / steepest ever);
+  Friday close 36,033.29, −6.23% on the day (−2,393.60 pts). Third round of
+  curbs this month; NT$500B stabilisation fund authorised since 6 Nov.
+- Sources: Focus Taiwan, Reuters, TWSE.
+
+### 12 — ENGLAND 37–12 ALL BLACKS (record win)
+- Sat 21 Nov, Twickenham (Allianz Stadium), Nations Championship: England beat
+  New Zealand 37–12 — record winning margin over the All Blacks (25 pts;
+  previous best 17, in the 38–21 win of 2012). Five tries (Slade, van
+  Poortvliet, Earl, Chessum, Atkinson). Back-to-back wins over NZ for the first
+  time since 2003; fifth straight win. Former captain Lewis Moody (motor
+  neurone disease) joined the team for the response to the haka.
+- Sources: Reuters, BBC, England Rugby (RFU).
+
+### ONE-LINER BACKUPS (for a "MORE FROM SATURDAY" ticker — already verified 21 Nov)
+- Bolsonaro in intensive care with bowel obstruction (Brasília).
+- Gen Z Youth Day of Action — walkouts in 25 European countries.
+- Denmark backs US–Greenland security deal, 109–0.
+- IAEA: North Korea expanding uranium enrichment at Yongbyon.
+- Saudi defences downed 3 Houthi missiles over Riyadh (21 Nov; distinct from
+  the 19 Nov PIF Tower hit).
+
+### NOT VERIFIED — DO NOT USE
+- Verstappen Las Vegas pole / Antonelli docked 5 places / Russell 2nd (in the
+  reference image; NOT verified by our searches — do not copy its claims).
+- "128 nations back killer-robot talks" (Geneva) — in the reference; not
+  verified by us. Do not use unless the builder verifies it first.
+- Pakistan "15 militants killed" — in the reference; not verified by us.
+  Do not use unless verified first.
+- Any other number from the reference image (35 stories, timeline times,
+  "82,500 marchers in France", "2 tankers hit off Khasab", etc.) — the
+  reference is a COMPETITOR's entry, not a source. Treat every one of its
+  claims as UNVERIFIED until checked against Reuters/AP/AFP/BBC. (Two of its
+  claims we did check turned out right — Bahrain, Sparta II, Kryvyi Rih,
+  Wall St, CEPA — but that does not validate the rest.)
